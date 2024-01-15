@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+.container {
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+
+}
+
+.tamato-button {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+}
+
+.white-button {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #ffffff;
+    color: rgba(19, 19, 24, 0.50);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-evenly;
+}
+
+.fa-solid {
+    padding-right: 8px;
+}
+
+.top-header {
+    display: flex;
+    margin-top: 50px;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+
+.logo>img {}
+
+.logo h3 {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.clor-praymary {
+    color: #FF5400;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+
+}
+
+.menu a {
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.home-color {
+    color: #FF5400;
+    text-align: center;
+    font-weight: 700;
+}
+
+
+
+/* =============================
+banner section 
+=================================*/
+
+.banner-section {
+    background-image: url(./Images/Group\ 13\ \(1\)\ \(1\).png);
+    border-radius: 16px;
+    width: 100%;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    margin-bottom: 100px;
+
+}
+
+/* .hero-image::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, .5);
+} */
+
+
+/* .banner-section::after{
+    position:absolute;
+    content: '';
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+} */
+
+.title-form {
+    align-items: center;
+
+
+}
+
+.title-form h1 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    text-align: center;
+
+}
+
+.title-form p {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 676px;
+    margin: 0 auto;
+
+}
+
+.banner-button {
+    background: rgba(255, 255, 255, 0.30);
+    border-radius: 8px;
+    display: flex;
+    gap: 24px;
+    max-width: 778px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+/* ==========================================
+main section start
+============================================== */
+
+/* Our Popular Tours  section*/
+.Our-popular-tours {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.toors-title {
+    width: 50%;
+
+}
+
+.toors-title h1 {
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom:24px;
+
+}
+
+.toors-title li > p {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom:16px;
+    max-width:550px;;
+}
+.toors-title > p {
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    margin:24px 0;
+    max-width:550px;;
+}
+
+.images {
+    width: 50%;
+}
+
+.images img {
+    width: 540px;
+    height: 550px;
+}
+
+.praymary-button {
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 800;
+    border: none;
+    margin-top:32px;
+}
+
