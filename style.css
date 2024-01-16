@@ -62,8 +62,6 @@ body {
     width: 50%;
 }
 
-.logo>img {}
-
 .logo h3 {
     color: #131318;
     font-size: 36px;
@@ -229,7 +227,8 @@ main section start
 .images img {
     width: 540px;
     height: 550px;
-}
+    margin-left: 34px;
+  }
 
 .praymary-button {
     width: 174px;
@@ -243,6 +242,10 @@ main section start
     border: none;
     margin-top: 32px;
 }
+
+
+/* ==============================================
+destination section */
 
 
 .destination {
@@ -278,19 +281,25 @@ main section start
     height: 300px;
     display: grid;
     grid-template-columns: 2fr 1fr 1fr;
-    grid-gap: 20px;
-    margin: 20px 0;
+    gap:15px;
+
 }
 
-.destination-img .row>img {
-    margin: 20px 0;
+#middle-section{
+    margin-top: 20px;
+    
 }
 
-.choose-us-img-section {}
+.choose-us{
+    height: auto;
+}
+
+
 
 .top-box {
     display: flex;
     gap: 20px;
+
 }
 
 .choose-box {
@@ -331,3 +340,5 @@ main section start
     font-size: 16px;
     font-weight: 400;
 }
+
+
