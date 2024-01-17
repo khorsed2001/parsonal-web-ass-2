@@ -56,12 +56,6 @@ banner section
         margin: 0 auto;
     }
 
-
-
-
-
-
-
     .Our-popular-tours {
         display: flex;
         flex-direction: column;
@@ -136,6 +130,15 @@ banner section
     }
 
 
+
+    .row {
+        height: 300px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    
+    }
+
     .row-images {
         height: 300px;
         width: 450px;
@@ -180,8 +183,9 @@ banner section
         padding: 40px;
         border-radius: 16px;
         border: 1px solid #FF5400;
-        width: 474px;
+        width: 500px;
         height: 400px;
+        margin: 0 auto;
 
     }
 
@@ -233,6 +237,7 @@ banner section
         margin: 24px 0;
         background: rgba(19, 19, 24, 0.007);
         height: 0.5px;
+        width: 391px;
     }
 
     .news-banner {
@@ -241,12 +246,35 @@ banner section
     }
 
     .news-banner img {
-        width: 74%;
+        width: 79%;
         height: 445px;
         margin-top: 50px;
     }
 
-
+    .offer {
+        width: 210px;
+        height: 80px;
+        transform: rotate(-19.628deg);
+        border-radius: 16px;
+        background: #FF5400;
+        text-align: center;
+        margin: -118px 290px;
+    }
+    
+    .offer p {
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        padding-top:20px;
+    }
+    
+    
+    .offer h3 {
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 800;
+    }
 
 }
 
