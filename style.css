@@ -30,6 +30,7 @@ body {
     font-size: 16px;
     font-weight: 400;
     border: none;
+
 }
 
 .white-button {
@@ -45,6 +46,7 @@ body {
     display: flex;
     margin: 0 auto;
     justify-content: space-evenly;
+    align-items: center;
 }
 
 .fa-solid {

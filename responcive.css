@@ -34,6 +34,41 @@ Responcive MObile Device
         text-decoration: none;
     }
 
+    .title-form h1 {
+        color: #FFF;
+        font-size: 64px;
+        font-weight: 800;
+        text-align: center;
+        padding-top: 50px;
+    
+    
+    }
+    
+    .banner-button {
+        background: rgba(255, 255, 255, 0.30);
+        border-radius: 8px;
+        display: flex;
+        gap: 24px;
+        max-width: 778px;
+        margin: 0 auto;
+        padding: 16px;
+        flex-direction: column;
+    }
+
+
+    .tamato-button {
+        width: 174px;
+        height: 52px;
+        border-radius: 8px;
+        background: #FF5400;
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        border: none;
+        margin:0 auto;
+    
+    }
     /* =============================
 banner section 
 =================================*/
